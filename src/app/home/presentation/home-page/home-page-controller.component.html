@@ -1,4 +1,14 @@
-<div class="wrapper" *ngFor="let user of users">
-  <p>{{ user.id }}</p>
-  <p>{{ user.name }}</p>
+<div class="home-page">
+  <div class="text-wrapper">
+    <app-text [class]="'header'">I'm Aung Phyo Oo</app-text>
+    <br>
+    <app-text [class]="'header'">WEB DEVELOPER (FRONT END)</app-text>
+  </div>
+  <div class="button-group">
+    <app-button [class]="'my-works header'">My Works</app-button>
+    <app-button [class]="'about'">About</app-button>
+    <app-button [class]="'contact'">Contact</app-button>
+  </div>
+
+  <app-image [src]="imageSrc" [class]="'background'"></app-image>
 </div>

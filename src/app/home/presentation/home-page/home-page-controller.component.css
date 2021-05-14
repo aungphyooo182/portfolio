@@ -1,0 +1,19 @@
+.home-page{
+  width: 100%;
+  height: 100vh;
+  min-height: 500px;
+  background: #EBEBEB;
+}
+
+.text-wrapper{
+  position: absolute;
+  top: 30%;
+  left:50%;
+}
+
+.button-group{
+  position: absolute;
+  display: flex;
+  top: 50%;
+  left: 25%;
+}

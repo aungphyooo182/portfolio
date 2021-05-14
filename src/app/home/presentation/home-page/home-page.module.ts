@@ -4,13 +4,18 @@ import {GlobalComponentsModule} from '../../../global-components/global-componen
 import {SharedComponentsModule} from '../shared-components/shared-components.module';
 import {HomePageControllerComponent} from './home-page-controller.component';
 import {RouterModule} from '@angular/router';
-
+import { CircleComponent } from './components/circle/circle.component';
+const components = [
+  CircleComponent
+]
 @NgModule({
     declarations: [
-        HomePageControllerComponent
+        HomePageControllerComponent,
+        components
     ],
     exports: [
-        HomePageControllerComponent
+        HomePageControllerComponent,
+        components
     ],
     imports: [
         CommonModule,

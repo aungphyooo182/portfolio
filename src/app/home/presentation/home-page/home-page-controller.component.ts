@@ -13,32 +13,8 @@ export class HomePageControllerComponent {
         private store: HomePageStore
     ) {}
 
-    public users = [
-      {
-        "id":"aung",
-        "name":"123"
-      }
-    ];
+    public imageSrc = "../../../../assets/images/bg3.jpg";
 
     ngOnInit(){
-      this.getAllUsers();
-      this.createUser();
-    }
-
-    getAllUsers() {
-      this.business.getAllUsers().subscribe(data=>{
-        console.log(data[0]);
-        this.users = data;
-      });
-    }
-
-    createUser(){
-      var body = {
-        username: "aungphyooo182",
-        password: "182aungphyooo"
-      };
-      this.business.createUser(body).subscribe(data=>{
-        console.log(data);
-      })
     }
 }

@@ -1,0 +1,61 @@
+@import '../css/inter.css';
+
+* {
+  font-family: 'Lilita One', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'zero' on, 'ss02' on,
+    'ss03' on, 'case' on; */
+}
+
+body{
+  margin: 0 auto;
+  background: #EFEFEF;
+}
+.bg-purple{
+  background: #B4CDEC;
+}
+.bg-yellow{
+  background: #EFDB15;
+}
+.bg-pink{
+  background: #FF8C9D;
+}
+.bg-blue{
+  background: #92E5E6;
+}
+.bg-green{
+  background: #A7D848;
+}
+
+.color-purple{
+  color: #B4CDEC;
+}
+.color-yellow{
+  color: #EFDB15;
+}
+.color-pink{
+  color: #FF8C9D;
+}
+.color-blue{
+  color: #92E5E6;
+}
+.color-green{
+  color: #A7D848;
+}
+.color-white{
+  color: #FFFFFF;
+}
+
+button{
+  cursor: pointer;
+  outline: none;
+}
+
+.header{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+  color: #52692a;
+}
+

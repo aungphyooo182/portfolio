@@ -1,0 +1,47 @@
+.my-works{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: #EFDB15;
+  box-shadow: 0px 4px 0px #cebe19;
+  background: #cebe19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #52692a;
+}
+
+
+.about{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: #92E5E6;
+  box-shadow: 0px 4px 0px #5db7b7;
+  background: #5db7b7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #52692a;
+}
+
+
+.contact{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid;
+  border-color: #A7D848;
+  box-shadow: 0px 4px 0px #799e30;
+  background: #799e30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #52692a;
+}
+
+.my-works, .about {
+  margin-right: 28px;
+}
